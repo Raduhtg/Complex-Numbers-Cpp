@@ -29,7 +29,7 @@
         return c;
     }
     
-    //Returns the product with 2 complex numbers
+    //Returns the product of 2 complex numbers
     complex complex::mul(complex x, complex y) {
         complex c{};
         c.r = (x.r*y.r) - (x.im*y.im);
