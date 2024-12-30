@@ -10,39 +10,39 @@ private:
     float im;
 
 public:
-    //get real
+    //Get real
     float getReal() {
         return r;
     }
 
-    //get complex
+    //Get complex
     float getIm() {
         return im;
     }
 
-    //set real
+    //Set real
     void setReal(int x) {
         r = x;
     }
 
-    //set im
+    //Set im
     void setIm(int x) {
         im = x;
     }
 
-    //adunare nr complexe
+    //Returns the sum of 2 complex numbers
     static complex add(complex, complex);
 
-    //print nr complex
+    //Returns a string from a complex number
     static std::string toString_complex(complex);
 
-    //calcularea conjugatei
+    //Returns the connubial of a complex number
     static complex conj(complex);
 
-    //inmultire
+    //Returns the product of 2 complex numbers
     static complex mul(complex, complex);
 
-    //ridicare la putere n (n apartine nr naturale)
+    //Returns a complex number raised to the power n when n ∈ N
     static complex powComplex(complex, int);
 };
 
